@@ -4,7 +4,13 @@ body{
     background-color: hsl(228, 77%, 88%);
 }
 
-
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .box{
   width: 250px;
   display: block;
